@@ -1,0 +1,7 @@
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\mvc1.exe
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\appsettings.Development.json
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\appsettings.json
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\mvc1.dll
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\mvc1.deps.json
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\mvc1.runtimeconfig.json
+C:\Users\rafan\OneDrive\Udemy\Docker-Marcoratti\projetos\mvc1\dist\mvc1.pdb
