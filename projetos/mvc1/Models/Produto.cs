@@ -10,9 +10,8 @@ namespace mvc1.Models
         public Produto(){
             
         }
-        public Produto(int ProdutoId, string nome, string categoria, decimal preco = 0)
+        public Produto(string nome, string categoria, decimal preco = 0)
         {
-            this.ProdutoId = ProdutoId;
             this.Nome = nome;
             this.Categoria = categoria;
             this.Preco = preco;

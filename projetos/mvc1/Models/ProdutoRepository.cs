@@ -7,12 +7,10 @@ namespace mvc1.Models
 {
     public class ProdutoRepository : IRepository
     {
-        private AppDbContext _context;
-
-        public ProdutoRepository(AppDbContext context)
-        {
-            _context = context;
+         private AppDbContext context;
+        public ProdutoRepository(AppDbContext ctx) {
+            context = ctx;
         }
-        public IEnumerable<Produto> Produtos => _context.Produtos;
+        public IEnumerable<Produto> Produtos => context.Produtos;
     }
 }
