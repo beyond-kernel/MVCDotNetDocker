@@ -1,0 +1,20 @@
+version: "3"
+
+volumes:
+      produtosdata:
+
+networks:
+      bridge:
+
+services:
+
+      mysql:
+            image: "mysql:5.7"
+            volumes:
+                  - produtosdata:/var/lib/mysql
+            networks:
+                  - bridge
+            environment:
+                  - MYSQL_ROOT_PASSWORD=numsey
+                  - bind-adress=0.0.0.0
+
